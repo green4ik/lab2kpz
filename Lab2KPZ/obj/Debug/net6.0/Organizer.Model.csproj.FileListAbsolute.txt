@@ -1,0 +1,12 @@
+G:\code\lab2kpz\Lab2KPZ\Lab2KPZ\obj\Debug\net6.0\Organizer.Model.csproj.AssemblyReference.cache
+G:\code\lab2kpz\Lab2KPZ\Lab2KPZ\obj\Debug\net6.0\Organizer.Model.GeneratedMSBuildEditorConfig.editorconfig
+G:\code\lab2kpz\Lab2KPZ\Lab2KPZ\obj\Debug\net6.0\Organizer.Model.AssemblyInfoInputs.cache
+G:\code\lab2kpz\Lab2KPZ\Lab2KPZ\obj\Debug\net6.0\Organizer.Model.AssemblyInfo.cs
+G:\code\lab2kpz\Lab2KPZ\Lab2KPZ\obj\Debug\net6.0\Organizer.Model.csproj.CoreCompileInputs.cache
+G:\code\lab2kpz\Lab2KPZ\Lab2KPZ\bin\Debug\net6.0\Organizer.Model.deps.json
+G:\code\lab2kpz\Lab2KPZ\Lab2KPZ\bin\Debug\net6.0\Organizer.Model.dll
+G:\code\lab2kpz\Lab2KPZ\Lab2KPZ\bin\Debug\net6.0\Organizer.Model.pdb
+G:\code\lab2kpz\Lab2KPZ\Lab2KPZ\obj\Debug\net6.0\Organizer.Model.dll
+G:\code\lab2kpz\Lab2KPZ\Lab2KPZ\obj\Debug\net6.0\refint\Organizer.Model.dll
+G:\code\lab2kpz\Lab2KPZ\Lab2KPZ\obj\Debug\net6.0\Organizer.Model.pdb
+G:\code\lab2kpz\Lab2KPZ\Lab2KPZ\obj\Debug\net6.0\ref\Organizer.Model.dll

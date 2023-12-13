@@ -1,0 +1,33 @@
+﻿<Window xmlns:Views="clr-namespace:Organizer.Model.UI.Views"  x:Class="Organizer.Model.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Organizer.Model.UI"
+        xmlns:Convertors="clr-namespace:Organizer.Model.UI.Convertors"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250" Width="600">
+    <Window.Resources>
+        <Convertors:ControlVisibility x:Key="my:ControlVisibility"></Convertors:ControlVisibility>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions >
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal">
+        <StackPanel Grid.Row="0">
+            <Button Command ="{Binding SetControlVisibility}" CommandParameter="WeaponShops" Width="70" Margin="20" Background="Aqua">Shops</Button>
+                <Button Command ="{Binding SetControlVisibility}" CommandParameter="Guns" Width="70" Margin="20" Background="Lime" >Guns</Button>
+                <Button Command ="{Binding SetControlVisibility}" CommandParameter="GunSellers" Width="70" Margin="20" Background="Pink">GunSellers</Button>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1">
+                <Views:GunSelerUserControl Visibility="{Binding Path = VisibleControl, Converter={StaticResource my:ControlVisibility},ConverterParameter=GunSellers}"/>
+                <Views:GunUserControl Visibility="{Binding Path = VisibleControl, Converter={StaticResource my:ControlVisibility},ConverterParameter=Guns}"/>
+                <Views:WeaponShopUserControl Visibility="{Binding Path = VisibleControl, Converter={StaticResource my:ControlVisibility},ConverterParameter=WeaponShops}"/>
+        </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</Window>

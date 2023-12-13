@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "/szZ62DWkFtFS3Gf3ewaW3XdMAeoY0XFk35CgpWMtc6NNStmHcqyD2SxcnB0Vt5V6EohAuMZ0P9oqmPkP6hFaA==",
+  "success": true,
+  "projectFilePath": "G:\\code\\lab2kpz\\Lab2KPZ\\Organizer.Model.UI\\Organizer.Model.UI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Illia\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Illia\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\Illia\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Illia\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Illia\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Illia\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Illia\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
